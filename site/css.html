@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS</title>
+	<style type="text/css">
+		body {
+			background-color: #403937;
+		}
+		h1, h2 {
+			color: orangered; text-align: center; margin: 0px; 
+			padding: 0px;
+		}
+		section > p {
+			color: red;
+		}
+		section span {
+			background-color: yellow;
+		}
+		.test > div {
+			color: orange; text-align: justify;
+		}
+		hr {
+			border-color: #ff7e47;
+		}
+		.bg {
+			background-color: #bdb6af; text-align: center;
+		}
+		section h2:hover{
+			background-color: black;
+			cursor: pointer;
+		}
+		.box {
+			background-image: url(bg.jpg);
+			padding: 10px;
+			border: 3px solid;
+			margin: 20px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<h1>Heading 1</h1>
+	<p class="bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<hr>
+	<section class="box">
+		<h2>section 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<hr>
+	<section class="test box">
+		<h2>Section 2</h2>
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+	<hr>
+	<section class="box">
+		<h2>Section 3</h2>
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <span>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</span> Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+</body>
+</html>
